@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InclusaoActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Alteração de Registro"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/editTextMarcaAlterar"
+        android:hint="Marca"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:layout_marginBottom="3dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextModeloAlterar"
+        android:hint="Modelo"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:layout_marginBottom="3dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextAnoAlterar"
+        android:hint="Ano"
+        android:inputType="phone"
+        android:layout_marginBottom="3dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextColorAlterar"
+        android:hint="Cor"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:layout_marginBottom="3dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextValorAlterar"
+        android:hint="Valor"
+        android:inputType="phone"
+        android:layout_marginBottom="3dp"
+        />
+
+    <Button
+        android:id="@+id/buttonAlterar"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:text="Salvar Alterações" />
+
+</LinearLayout>
